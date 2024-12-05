@@ -15,7 +15,7 @@
 
 ## Why did I choose this project?
 
-As part of a course I took from [JSM](https://www.jsmastery.pro/) I built Apple's website
+As part of a course I took from <a href="https://www.jsmastery.pro/" target="_blank">JSM</a> I built Apple's website
 © fully designed by the course author
 
 My goal was to experiment with the gsap and three js libraries which conveniently support animations and the use of 3D on my website
