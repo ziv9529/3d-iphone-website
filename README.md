@@ -1,8 +1,16 @@
-# React + Vite
+# Why did I choose this project?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+As part of a course I took from [JSM](https://www.jsmastery.pro/) I built Apple's website, fully designed by the course author
 
-Currently, two official plugins are available:
+My goal was to experiment with the gsap and three js libraries which conveniently support animations and the use of 3D on my website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In addition, I learned something new while using a tool called Sentry which supports receiving metrics and data about users who will visit the site, helps with error handling and performance.
+
+to run the project you can clone the repo by: `git clone https://github.com/ziv9529/3d-iphone-website.git`
+
+then run:
+
+```
+npm install
+npm run dev
+```

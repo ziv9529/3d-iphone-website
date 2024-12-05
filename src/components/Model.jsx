@@ -4,7 +4,7 @@ import ModelView from "./ModelView";
 import { useEffect, useRef, useState } from "react";
 import { yellowImg } from "../utils";
 
-import * as THREE from "three";
+import { Group } from "three";
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants";
@@ -21,8 +21,8 @@ const Model = () => {
   const cameraControllSmall = useRef();
   const cameraControllLarge = useRef();
 
-  const small = useRef(new THREE.Group());
-  const large = useRef(new THREE.Group());
+  const small = useRef(new Group());
+  const large = useRef(new Group());
 
   const [smallRotation, setSmallRotation] = useState(0);
   const [largeRotation, setLargeRotation] = useState(0);
