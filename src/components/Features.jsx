@@ -34,7 +34,7 @@ const Features = () => {
   }, []);
 
   return (
-    <section className="h-full common-padding bg-zinc relative overflow-hidden">
+    <section className="h-full common-padding bg-zinc overflow-hidden">
       <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="features_title" className="section-heading">
@@ -43,7 +43,7 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center overflow-hidden">
-          <div className="mt-32 mb-24 pl-24">
+          <div className="mt-24 mb-24 pl-24">
             <h2 className="text-5xl lg:text-7xl font-semibold">iPhone.</h2>
             <h2 className="text-5xl lg:text-7xl font-semibold">
               Forged in titanium.
@@ -65,7 +65,7 @@ const Features = () => {
               </video>
             </div>
 
-            <div className="flex flex-col w-full relative">
+            <div className="flex flex-col w-full">
               <div className="feature-video-container">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
