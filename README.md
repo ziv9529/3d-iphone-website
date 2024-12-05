@@ -22,6 +22,12 @@ My goal was to experiment with the gsap and three js libraries which convenientl
 
 In addition, I learned something new while using a tool called Sentry which supports receiving metrics and data about users who will visit the site, helps with error handling and performance.
 
+## The result
+
+- <a href="https://3d-iphone-website-rho.vercel.app/">Link to the website</a>
+
+### Run it locally
+
 to run the project you can clone the repo by: `git clone https://github.com/ziv9529/3d-iphone-website.git`
 
 then run:
