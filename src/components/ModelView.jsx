@@ -4,7 +4,7 @@ import {
   PerspectiveCamera,
   View,
 } from "@react-three/drei";
-import { Vector3 } from "three";
+import * as THREE from "three";
 import Lights from "./Lights";
 import IPhone from "./IPhone";
 import { Suspense } from "react";
@@ -37,7 +37,7 @@ const ModelView = ({
         enableZoom={false}
         enablePan={false}
         rotateSpeed={0.4}
-        target={new Vector3(0, 0, 0)}
+        target={new THREE.Vector3(0, 0, 0)}
         onEnd={() => setRotationState(controlRef.current.getAzimuthalAngle())}
       />
 
